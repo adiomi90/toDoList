@@ -1,0 +1,142 @@
+body{
+    background: #ffffe5; 
+}
+
+#todo{
+    width: 400px;
+    margin:50px  auto;
+    border-radius: 30px;
+    border: 1px solid #cfdbdc;
+    box-shadow: 0 0 10px #ccc;
+    
+}
+
+
+.todo-header{
+    background: #3f94d6;
+    color:#fff;
+    height: 80px;
+    border-radius: 30px 30px 0 0 ;
+    
+}
+
+.todo-header h2{
+    margin: 0;
+    text-align: center;
+    line-height: 80px;
+    font-size: 32px;
+    font-family: Arial;
+}
+.tasks{
+    margin: 0;
+    padding: 0;
+    
+}
+.task{
+    list-style: none;
+    border-top: 1px solid #cfdbdc;
+    height: 50px;
+}
+
+.col-1{
+    width: 10%;
+    float: left;
+    background: #bbdefb;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.col-2{
+    width:70%;
+    float: left;
+    background: #fff;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    padding: 15px 0;
+    box-sizing: border-box;
+    
+        
+}
+.col-3{
+     width: 20%;
+    float: left;
+display: flex;   
+    height: 100%;
+  display: flex;
+    justify-content:  center;
+    align-items: center;
+  
+
+}
+.col-3:hover{
+    background: #90caf9;
+    cursor: pointer;
+}
+.add-button{
+    border: 0;
+    padding: 0;
+    color:grey;
+    font-size: 50px;
+    outline: none;
+    font-weight: bolder;
+   
+    
+}
+.col-3 img{
+    float: left;
+    
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin:5px 0 0 15px ;
+ display: flex;
+    justify-content:  center;
+    align-items: center;
+    border-radius: 50%;
+    background:grey;
+}
+.add-block{
+    
+    height: 50px;
+}
+.add-field{
+    width:80%;
+    height: 50px;
+    padding:0 15px;
+    box-sizing: border-box;
+    float: left;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: cursive;
+     border-bottom: 1px solid #cfdbdc;
+    border-top: 1px solid #cfdbdc;
+}
+
+.task:last-child .col-1{
+    border-radius: 0 0 0  20px;
+} 
+
+.checked{
+    text-decoration: line-through
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
